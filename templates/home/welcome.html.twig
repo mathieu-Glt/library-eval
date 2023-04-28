@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Book index{% endblock %}
+
+{% block body %}
+{# {{ dump(books) }} #}
+    <h1>{{ welcome }}</h1>
+
+    <a class="btn btn-primary" type="boutton" href="{{ path('app_book_new') }}">Create new</a>
+{% endblock %}
